@@ -1,0 +1,3 @@
+covers various areas of functionality related to the CoreML model format in the ONNX Runtime project. It includes the definition of protocol buffer messages for different types of models, such as classifiers, regressors, feature extractors, and transformers. These messages define the structure and parameters of the models, as well as the input and output formats. The code also includes messages for data structures used in CoreML models, such as mappings, vectors, and ranges. 
+
+The code in this directory interacts with other functional areas of the system by providing a standardized format for representing and exchanging CoreML models. Other components or classes within the project can import and use these messages to define, load, and manipulate CoreML

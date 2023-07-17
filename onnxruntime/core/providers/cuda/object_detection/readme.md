@@ -1,0 +1,3 @@
+covers the functionality of non-maximum suppression (NMS) and region of interest (RoI) align operations for object detection on CUDA devices. It implements the NMS algorithm to filter out overlapping detections and keep the most confident ones. It also performs the RoI pooling operation to generate pooled feature maps for each RoI. 
+
+The code interacts with other functional areas of the system by including headers and using functions from the CPU and CUDA providers. It relies on helper functions from the CPU object detection provider and common CUDA utilities. It also uses the CUB library for some operations. Additionally, it interacts with the ONNX Runtime APIs and CUDA APIs for GPU computation.

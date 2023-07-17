@@ -1,0 +1,4 @@
+Summary:
+The code in this directory covers the creation of OpIR (Operator Intermediate Representation) for various tensor operations, such as Concat, Crop, Expand, Reshape, Split, GatherElements, Pad, Shape, Where, Slice, Transpose, Gather, and Cast. 
+
+The code interacts with other parts of the system by including necessary headers, using functions and classes defined in those headers, and utilizing attributes and information from the Node object. It also calls functions from other directories, such as "mti_tvm_utils.h", "op_kernel_info.h", "core/codegen/mti/tensor/split.h", and "core/codegen/mti/tensor/pad_ops.h", to perform the necessary operations. The resulting tensors are added to the outputs array and returned to the calling code.

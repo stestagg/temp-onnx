@@ -1,0 +1,2 @@
+Summary:
+The code in this directory covers the installation of dependencies and libraries required for the ONNX Runtime project on Linux systems. It includes scripts to install protobuf, dependencies, and libraries on CentOS. The code interacts with other functional areas of the system by setting up the installation prefix and dependency file path, configuring build options for the protobuf library, and installing the rapidjson library for the Azure Execution Provider.

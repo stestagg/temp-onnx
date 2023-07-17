@@ -1,0 +1,1 @@
+is responsible for initializing and loading the Aten Op Executor C++ extension in the ONNX Runtime project. It interacts with other parts of the project by importing necessary modules and functions, such as `torch` and `_C` from the `onnxruntime.capi` module.

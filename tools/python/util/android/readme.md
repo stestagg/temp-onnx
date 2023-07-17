@@ -1,0 +1,1 @@
+covers functionality related to managing Android devices and emulators within the ONNX Runtime project. It provides utility functions for getting the paths of Android SDK tools, creating virtual devices, and starting/stopping emulators. The code interacts with other parts of the project by importing and using the functions defined in the "android" module.

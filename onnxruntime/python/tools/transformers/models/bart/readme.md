@@ -1,0 +1,2 @@
+Summary:
+The code in this directory covers the functionality of exporting the BART model for summarization tasks. It exports the encoder and decoder components separately and interacts with other parts of the project by importing utility functions from the "utils" module. It accepts command-line arguments for configuration and saves the exported models in the specified output directory.

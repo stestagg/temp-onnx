@@ -1,0 +1,4 @@
+Summary:
+The code in this directory covers the functionality of interacting with the GPU allocator in PyTorch. It provides functions for raw memory allocation and deallocation, as well as the function responsible for emptying the GPU cache. The code is wrapped in a PyTorch extension module for easy integration with other components of the project.
+
+The code in the setup.py file interacts with other parts of the project by providing the necessary configuration for compiling and installing the torch_gpu_allocator module. This module is used in other components of the project for GPU memory allocation.

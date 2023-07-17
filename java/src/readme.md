@@ -1,0 +1,6 @@
+covers the functionality related to the Android application's structure and behavior. It includes defining essential information in the AndroidManifest.xml file, such as package name, permissions, activities, services, and receivers. The code interacts with other parts of the project by specifying components and their attributes, declaring permissions, and registering services or receivers.
+
+Directory: ./native
+
+Summary:
+The code in this directory covers various areas of functionality in the ONNX Runtime Java project. It includes implementations of native methods for classes related to threading options, training sessions, ONNX maps, tensors, providers, and environment management. The code interacts with other functional areas of the system by utilizing the ONNX Runtime C API, JNI, and utility functions. It performs operations such as creating and manipulating options, sessions, tensors, and environments, as well as handling platform-specific conversions, memory management, and error checking.

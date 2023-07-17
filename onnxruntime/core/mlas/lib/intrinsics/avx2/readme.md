@@ -1,0 +1,1 @@
+the functionality of performing quantized linear addition and quantized integer depthwise convolution using AVX2 intrinsics. It includes routines for quantization, shifting, packing, and loading data using AVX2 instructions. The code interacts with other parts of the system by including necessary header files and using functions and types defined in those files.

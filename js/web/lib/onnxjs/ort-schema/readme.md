@@ -1,0 +1,1 @@
+defines enums and classes used in the ONNX Runtime JavaScript project. It includes enums for different types and values used in the ONNX Runtime, as well as a class for representing the shape of a tensor. This code is likely used by other parts of the project to define and manipulate shapes and other types used in the ONNX Runtime.

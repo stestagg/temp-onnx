@@ -1,0 +1,1 @@
+covers the functionality of managing dynamic dimensions and unnamed symbols in the code generation process for the ONNX Runtime project. It provides a context for code generation and maintains a map of dynamic dimensions. The code interacts with other parts of the project through the use of the CodeGenHandle class and by providing methods to get or create dynamic dimensions.

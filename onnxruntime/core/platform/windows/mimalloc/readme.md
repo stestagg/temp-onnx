@@ -1,0 +1,1 @@
+covers the functionality of using the mimalloc memory allocator library for memory management when the USE_MIMALLOC flag is enabled. It provides definitions for new and delete operators. The code interacts with other parts of the project where memory allocation and deallocation occur, ensuring that mimalloc is used instead of the default memory management functions.

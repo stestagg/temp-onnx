@@ -1,0 +1,3 @@
+covers the functionality related to tensor operations on CUDA-enabled devices in the ONNX Runtime project. It includes implementations for operators such as ImageScaler, DynamicSlice, Crop, ShrunkenGather, and Trilu. 
+
+The code interacts with other functional areas of the system by including necessary headers, registering operator kernels, and using common CUDA functions and utilities provided by the ONNX Runtime. It also interacts with other parts of the project by accessing input and output tensors, validating their shapes, and performing the actual computation using CUDA kernels.

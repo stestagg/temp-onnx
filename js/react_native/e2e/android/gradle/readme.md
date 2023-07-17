@@ -1,0 +1,1 @@
+covers the functionality related to the Gradle wrapper for the ONNX Runtime project in React Native. It specifies the distribution and location of the Gradle wrapper, including the download URL, checksum, and store paths. This code interacts with the Gradle build system to configure the Gradle wrapper for the project.
