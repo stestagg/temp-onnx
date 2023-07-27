@@ -1,0 +1,167 @@
+apis
+apis: c
+apis: C#
+apis: C++
+apis: C++: hip
+apis: C++: hipify
+apis: csharp
+apis: java
+apis: java: react
+apis: Objective C
+apis: python
+architectures
+architectures: amd
+architectures: Apple Silicon
+architectures: ARM
+architectures: arM: aarch64
+architectures: ARM: neon
+architectures: arm32
+architectures: arm64
+architectures: AVX
+architectures: AVX512
+architectures: cpu
+architectures: gpu
+architectures: gpu: Nvidia
+architectures: ibm power
+architectures: ibm power: power10
+architectures: NPU
+architectures: VAD
+architectures: vpu
+architectures: x64
+architectures: x86
+architectures: x86: AMX
+Azure
+execution providers
+execution providers: ArmNN
+execution providers: coreml
+execution providers: Cuda
+execution providers: cuda: nccl
+execution providers: Direct ML
+execution providers: EP
+execution providers: MIGraphX
+execution providers: NNAPI
+execution providers: oneDNN
+execution providers: OpenVINO: OV
+execution providers: provider
+execution providers: ROCm
+execution providers: ROCm: rocblas
+execution providers: TensorRT
+execution providers: tvm
+featurizers
+graph
+graph: graph processing: 3d unet
+graph: graph processing: abseil
+graph: graph processing: edge
+graph: graph processing: gist
+graph: graph processing: weight
+graph: optimization
+graph: partition
+graph: protobuf
+inferencing
+models
+models: customer model
+models: learning models
+models: model conversion
+models: model graphs
+models: model processing
+models: model processing: fusion
+models: model support
+models: model testing
+models: model transformation
+models: model types
+models: model types: beamsearch
+models: model types: bert
+models: model types: bfloat16
+models: model types: convolution
+models: model types: convolution: cnn
+models: model types: deepthink longformer
+models: model types: float16
+models: model types: mtdnn
+models: model types: nuphar
+models: model types: rcnn
+models: model types: resnet
+models: model types: stable diffusion
+models: model types: xnnpack
+models: model types:bfloat16
+models: model zoo
+models: onnx models
+models: ort model
+models: testing models
+models: training models
+models: training models: fairscale
+models: training models: GatherGrad
+models: training models: grad
+models: training models: gradient
+models: training models: pytorch
+models: training models: tuning
+models: transformer-based
+nodes/operators/kernels/tensors
+nodes/operators/kernels/tensors :clip
+nodes/operators/kernels/tensors: aten
+nodes/operators/kernels/tensors: attention
+nodes/operators/kernels/tensors: bias
+nodes/operators/kernels/tensors: convgrad
+nodes/operators/kernels/tensors: convtranspose
+nodes/operators/kernels/tensors: dlpack
+nodes/operators/kernels/tensors: documentation
+nodes/operators/kernels/tensors: domain
+nodes/operators/kernels/tensors: dropout
+nodes/operators/kernels/tensors: einsum
+nodes/operators/kernels/tensors: gelu
+nodes/operators/kernels/tensors: gemm
+nodes/operators/kernels/tensors: layernorm
+nodes/operators/kernels/tensors: layernormalization
+nodes/operators/kernels/tensors: matmul
+nodes/operators/kernels/tensors: matrix
+nodes/operators/kernels/tensors: matrix: eigen
+nodes/operators/kernels/tensors: maxpool
+nodes/operators/kernels/tensors: memcpy
+nodes/operators/kernels/tensors: nchw
+nodes/operators/kernels/tensors: nchwc
+nodes/operators/kernels/tensors: nhwc
+nodes/operators/kernels/tensors: op
+nodes/operators/kernels/tensors: opset
+nodes/operators/kernels/tensors: pad
+nodes/operators/kernels/tensors: prelu
+nodes/operators/kernels/tensors: qlinear
+nodes/operators/kernels/tensors: reducesum
+nodes/operators/kernels/tensors: scatternd
+nodes/operators/kernels/tensors: sequencepooling
+nodes/operators/kernels/tensors: sigmoid
+nodes/operators/kernels/tensors: SkipLayerNormalization
+nodes/operators/kernels/tensors: softmax
+nodes/operators/kernels/tensors/opset
+optimisation: Deepspeed
+optimisation: im2col
+optimisation: Olive
+optimization
+optimization: transformers
+parsing and serialisation
+partitions
+performance
+performance: quantize
+platforms
+platforms: Android
+platforms: CentOS
+platforms: ios
+platforms: linux
+platforms: linux: ubuntu
+platforms: macos
+platforms: macos: OS X
+platforms: mobile
+platforms: web
+platforms: web: emsdk
+platforms: web: webassembly
+platforms: web: webgl
+platforms: windows
+platforms: windows: WCOS
+platforms: windows: Win32
+platforms: windows: Win33
+platforms: windows: Win34
+platforms: windows: windowsAI
+platforms: windows: winml
+platforms: windows: WinRT
+platforms: winml
+quantization: QDQ
+quantization: s8s8
+quantization: u8s8
