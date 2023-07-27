@@ -1,51 +1,51 @@
 apis
 apis: c
-apis: C#
-apis: C++
-apis: C++: hip
-apis: C++: hipify
+apis: c#
+apis: c++
+apis: c++: hip
+apis: c++: hipify
 apis: csharp
 apis: java
 apis: java: react
-apis: Objective C
+apis: objective c
 apis: python
 architectures
 architectures: amd
-architectures: Apple Silicon
-architectures: ARM
-architectures: arM: aarch64
-architectures: ARM: neon
+architectures: apple silicon
+architectures: arm
+architectures: arm: aarch64
+architectures: arm: neon
 architectures: arm32
 architectures: arm64
-architectures: AVX
-architectures: AVX512
+architectures: avx
+architectures: avx512
 architectures: cpu
 architectures: gpu
-architectures: gpu: Nvidia
+architectures: gpu: nvidia
 architectures: ibm power
 architectures: ibm power: power10
-architectures: NPU
-architectures: VAD
+architectures: npu
+architectures: vad
 architectures: vpu
 architectures: x64
 architectures: x86
-architectures: x86: AMX
-Azure
+architectures: x86: amx
+azure
 execution providers
-execution providers: ArmNN
+execution providers: armnn
 execution providers: coreml
-execution providers: Cuda
+execution providers: cuda
 execution providers: cuda: nccl
-execution providers: Direct ML
-execution providers: EP
-execution providers: MIGraphX
-execution providers: NNAPI
-execution providers: oneDNN
-execution providers: OpenVINO: OV
+execution providers: direct ml
+execution providers: ep
+execution providers: migraphx
+execution providers: nnapi
+execution providers: onednn
+execution providers: openvino: ov
 execution providers: provider
-execution providers: ROCm
-execution providers: ROCm: rocblas
-execution providers: TensorRT
+execution providers: rocm
+execution providers: rocm: rocblas
+execution providers: tensorrt
 execution providers: tvm
 featurizers
 graph
@@ -89,7 +89,7 @@ models: ort model
 models: testing models
 models: training models
 models: training models: fairscale
-models: training models: GatherGrad
+models: training models: gathergrad
 models: training models: grad
 models: training models: gradient
 models: training models: pytorch
@@ -128,12 +128,12 @@ nodes/operators/kernels/tensors: reducesum
 nodes/operators/kernels/tensors: scatternd
 nodes/operators/kernels/tensors: sequencepooling
 nodes/operators/kernels/tensors: sigmoid
-nodes/operators/kernels/tensors: SkipLayerNormalization
+nodes/operators/kernels/tensors: skiplayernormalization
 nodes/operators/kernels/tensors: softmax
 nodes/operators/kernels/tensors/opset
-optimisation: Deepspeed
+optimisation: deepspeed
 optimisation: im2col
-optimisation: Olive
+optimisation: olive
 optimization
 optimization: transformers
 parsing and serialisation
@@ -141,27 +141,27 @@ partitions
 performance
 performance: quantize
 platforms
-platforms: Android
-platforms: CentOS
+platforms: android
+platforms: centos
 platforms: ios
 platforms: linux
 platforms: linux: ubuntu
 platforms: macos
-platforms: macos: OS X
+platforms: macos: os x
 platforms: mobile
 platforms: web
 platforms: web: emsdk
 platforms: web: webassembly
 platforms: web: webgl
 platforms: windows
-platforms: windows: WCOS
-platforms: windows: Win32
-platforms: windows: Win33
-platforms: windows: Win34
-platforms: windows: windowsAI
+platforms: windows: wcos
+platforms: windows: win32
+platforms: windows: win33
+platforms: windows: win34
+platforms: windows: windowsai
 platforms: windows: winml
-platforms: windows: WinRT
+platforms: windows: winrt
 platforms: winml
-quantization: QDQ
+quantization: qdq
 quantization: s8s8
 quantization: u8s8
