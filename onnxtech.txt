@@ -252,11 +252,6 @@ operators: normalizer
 operators: not
 operators: onehot
 operators: onehotencoder
-operators: operator domain: ai.onnx
-operators: operator domain: ai.onnx.ml
-operators: operator domain: com.microsoft
-operators: operator domain: com.microsoft.dml
-operators: operator domain: com.microsoft.nchwc
 operators: optional
 operators: optionalgetelement
 operators: optionalhaselement
