@@ -244,8 +244,9 @@ operators: multinomial
 operators: murmurhash3
 operators: neg
 operators: ngramrepeatblock
-operators: nhwcconv
-operators: nhwcmaxpool
+operators: nchwc
+operators: nchwc: nhwcconv
+operators: nchw: nhwcmaxpool
 operators: nonzero
 operators: normalizer
 operators: not
