@@ -1,0 +1,1 @@
+is responsible for including Android native libraries in the Microsoft.ML.OnnxRuntime project. It ensures that the necessary Android native libraries are included and accessible for Android application development. The code interacts with other parts of the project by linking the native libraries to the project and ensuring their file paths are specified correctly.

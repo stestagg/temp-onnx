@@ -1,5 +1,4 @@
-Summary:
-The code in this directory is responsible for setting up a CentOS 7 environment for building the ONNX Runtime project. It installs dependencies and tools, sets environment variables, and creates a non-root user. This code is used in the Zip-Nuget Packaging NoContribOps Pipeline and Zip-Nuget-Java Packaging Pipeline.
+is responsible for setting up a CentOS 7 environment for building the ONNX Runtime project. It installs dependencies and tools, sets environment variables, and creates a non-root user. This code is used in the Zip-Nuget Packaging NoContribOps Pipeline and Zip-Nuget-Java Packaging Pipeline.
 
 Interactions with other functional areas:
 - It interacts with the operating system to check the CentOS version and install necessary packages using the yum package manager.

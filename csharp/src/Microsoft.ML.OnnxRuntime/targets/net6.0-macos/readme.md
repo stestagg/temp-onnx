@@ -1,0 +1,4 @@
+is responsible for including native references to the libonnxruntime.dylib library in the Microsoft.ML.OnnxRuntime project. It sets various properties and conditions to ensure proper linking and loading of the library. This functionality allows the project to interact with the OnnxRuntime functionality.
+
+Interactions:
+The code in this directory interacts with the Microsoft.ML.OnnxRuntime project by including the necessary native references for the libonnxruntime.dylib library. It ensures that the library is properly linked and loaded, enabling the project to utilize the OnnxRuntime functionality.

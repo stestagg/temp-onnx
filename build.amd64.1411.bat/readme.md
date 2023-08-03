@@ -1,0 +1,1 @@
+is responsible for setting up the Visual C++ environment variables to use the 14.11 (VS2017 ver15.3) toolchain, which is supported by CUDA 9.2. It interacts with other parts of the project by setting up the necessary environment variables for the build process. Additionally, it requires a Python 3.6 or higher installation to be available in the PATH.

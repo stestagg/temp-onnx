@@ -1,0 +1,1 @@
+the functionality of targeting the MonoAndroid 11.0 platform for the Microsoft.ML.OnnxRuntime project. It includes a targets.xml file that specifies the AndroidLibrary item group and links native files from the runtimes/android/native directory. This code interacts with other parts of the project by including the necessary native files for the MonoAndroid 11.0 platform.

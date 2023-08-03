@@ -1,0 +1,1 @@
+The code in the NuGet.config file configures the NuGet package manager for the onnxruntime project. It specifies package sources and disables source control integration. This code interacts with other parts of the project by providing configuration for package management, allowing easy management and retrieval of dependencies from specified package sources.

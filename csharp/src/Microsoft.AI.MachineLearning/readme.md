@@ -1,0 +1,1 @@
+covers the functionality related to the Microsoft.AI.MachineLearning NuGet package settings in the project. It includes rules, properties, and targets for configuring the package. The code interacts with other parts of the project by providing necessary configuration options, include directories, and properties for the compilation and resource compilation processes.

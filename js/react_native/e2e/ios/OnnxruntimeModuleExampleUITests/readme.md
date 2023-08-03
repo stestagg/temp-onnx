@@ -1,1 +1,1 @@
-The code in this directory is a placeholder file required for detox test build in the Onnxruntime project. It does not contain any actual code or functionality.
+is a placeholder file required for detox test build in the Onnxruntime project. It does not contain any actual code or functionality.
