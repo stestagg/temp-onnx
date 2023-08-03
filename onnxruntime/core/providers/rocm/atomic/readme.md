@@ -1,1 +1,0 @@
-provides atomic add operations for different data types on the ROCm platform. It defines functions for atomic addition using ROCm-specific atomic operations. This functionality can be used by other components or files that require atomic addition operations on the ROCm platform.

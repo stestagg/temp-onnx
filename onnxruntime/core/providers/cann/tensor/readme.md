@@ -1,3 +1,0 @@
-the functionality related to tensor operations for the CANN (Compute Architecture for Neural Networks) execution provider in the ONNX Runtime project. It includes implementations for operators such as Reshape, Flatten, Transpose, Cast, Identity, and Dropout. 
-
-The code interacts with other functional areas of the system by including necessary headers and namespaces, using classes and functions from the ONNX Runtime library, and registering the operators with the ONNX Runtime framework. It also interacts with the ACL (Ascend Compute Library) to execute certain operations and handles exceptions and status codes appropriately.

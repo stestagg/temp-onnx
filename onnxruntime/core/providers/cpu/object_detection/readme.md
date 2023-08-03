@@ -1,3 +1,0 @@
-the functionality of object detection in the ONNX Runtime project. It includes implementations for the RoiAlign operation, which performs region of interest pooling to extract features from specific regions of an input feature map. The code also implements the non-maximum suppression algorithm to filter out overlapping bounding boxes based on scores and IOU thresholds.
-
-The code interacts with other functional areas of the system by including necessary headers and using helper functions and data structures defined in other files. It relies on input tensors provided by the calling code and includes kernel definitions for different versions of the ONNX operator.

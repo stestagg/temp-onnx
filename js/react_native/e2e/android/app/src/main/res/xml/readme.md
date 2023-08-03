@@ -1,3 +1,0 @@
-covers the network security configuration for the Android app in the ONNX Runtime project. It allows cleartext traffic for specific domains, enabling communication over HTTP without requiring HTTPS. The network_security_config.xml file is used by the Android app to enforce these network security settings. 
-
-The code in this directory interacts with other functional areas of the system by ensuring secure communication between the app and the specified domains. It helps protect sensitive data and ensures that the app can communicate effectively with the designated domains.

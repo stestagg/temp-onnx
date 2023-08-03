@@ -1,1 +1,0 @@
-provides atomic add operations for different data types in CUDA. These operations are used for performing thread-safe addition operations on GPU memory. The code interacts with other parts of the ONNX Runtime project by providing these atomic add functions to be used in CUDA kernels for various operations.

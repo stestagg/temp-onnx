@@ -1,3 +1,0 @@
-covers functionality related to platform-specific operations in the ONNX Runtime project. It includes implementations for manipulating file paths, providing time-related functionality, managing the execution environment, and handling telemetry events. 
-
-The code interacts with other functional areas of the system by using common functions and types defined in other header files. It also includes platform-specific header files and libraries, such as "PathCch.h" and "PathCch.lib" for Windows. Additionally, it interacts with modules for logging, common functionality, and performance metrics.

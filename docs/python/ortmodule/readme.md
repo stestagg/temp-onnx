@@ -1,1 +1,0 @@
-covers the functionality of the ORTModule class in the ONNX Runtime training module. It defines the API for training models using the ONNX Runtime framework. The code interacts with other components of the project to enable training of models, such as importing the ORTModule from onnxruntime.training and wrapping the original PyTorch model.

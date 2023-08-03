@@ -1,1 +1,0 @@
-covers the functionality of optimizing QDQ format ONNX models for optimal performance when executed using ONNX Runtime. It interacts with the ONNX library to load and save models. It also mentions that the fixing up of DQ nodes with multiple consumers is now done by an ORT graph transformer in ORT 1.15.

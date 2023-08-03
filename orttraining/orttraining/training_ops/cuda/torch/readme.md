@@ -1,3 +1,0 @@
-implements the CUDA kernel for a custom Python operator in the ONNX Runtime Training project. It covers the functionality of running the forward and backward passes of the custom operator for training deep learning models using PyTorch. 
-
-The code interacts with other parts of the project by including necessary headers and using the ONNX_OPERATOR_KERNEL_EX macro to register the operator kernels with the ONNX Runtime framework.

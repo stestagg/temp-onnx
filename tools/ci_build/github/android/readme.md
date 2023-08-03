@@ -1,1 +1,0 @@
-is responsible for building and packaging the ONNX Runtime project for Android. It interacts with other parts of the project by utilizing build settings, calling build and coverage scripts, and copying artifacts to desired locations. It also uses the "adb" command-line tool to push files to an Android device for testing or execution.

@@ -1,3 +1,0 @@
-covers the functionality related to parsing and setting run options, tensor operations, initializing the ONNX Runtime module for Node.js, parsing and setting session options, and loading and running ONNX models. 
-
-The code interacts with other functional areas of the system by including necessary header files, utilizing APIs and common functions, and utilizing the Napi library for handling JavaScript objects and values. It also exports the InferenceSessionWrap class to the Node.js environment, allowing other parts of the project to use the ONNX Runtime inference session functionality. Additionally, it interacts with the ONNX Runtime C++ API for session options and the ONNX runtime API for loading and running ONNX models.

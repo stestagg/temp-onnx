@@ -1,3 +1,0 @@
-various mathematical operations for the ONNX Runtime project, including unary operations, LogSoftmax, matrix multiplication, binary operations, Gemm (General Matrix Multiply), reduction operations, and Softmax. 
-
-The code interacts with other parts of the project by using functions and classes from the "topi" and "tvm" namespaces for element-wise operations, tensor computations, and expressions. It also includes headers from the "core/codegen/common" and "core/codegen/mti" directories for common settings and utility functions. Additionally, it uses functions from the "reshape_ops.h" and "mti_tvm_utils.h" files for manipulating tensors and the "topi/nn/softmax.h" file for performing softmax operations.

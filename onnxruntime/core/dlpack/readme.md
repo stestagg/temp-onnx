@@ -1,1 +1,0 @@
-provides functions for converting between ONNX Runtime's OrtValue and DLPack's DLTensor data structures. It enables interoperability between ONNX Runtime and DLPack by allowing conversion of data types, devices, and MLDataType. This functionality interacts with other areas of the system by facilitating the exchange of data between ONNX Runtime and DLPack.

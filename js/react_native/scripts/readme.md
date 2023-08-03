@@ -1,1 +1,0 @@
-is responsible for updating the package.json file of the React Native component of the ONNX Runtime project and handling the execution of the "yarn" command. It interacts with other parts of the project by reading and updating the package.json files, and executing the "yarn" command with necessary arguments or performing the bootstrap process.

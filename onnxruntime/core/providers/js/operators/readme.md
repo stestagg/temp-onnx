@@ -1,3 +1,0 @@
-covers the implementation of various operators for the JavaScript execution provider in the ONNX Runtime project. These operators include Gemm, Squeeze, Unsqueeze, unary operators, MatMul, pooling operations, Conv, Shape, binary operators, Reshape, Transpose, and reduction operations. 
-
-The code interacts with other parts of the system by registering the operators as kernels for the JavaScript execution provider, defining versioned and non-versioned kernel implementations, specifying type constraints and memory types, including necessary headers, and using the operators in other components that require their functionality. The code also relies on the ONNX operator kernel framework and the ONNX Runtime execution provider architecture to execute the operators efficiently.

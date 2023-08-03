@@ -1,3 +1,0 @@
-covers the configuration and integration of the ONNX Runtime React Native project on Android. It includes the AndroidManifest.xml file, which defines the package name and provides important information about the application to the Android operating system. Additionally, the "cpp" subdirectory provides functionality for exchanging data between Java and C++ in the project. 
-
-The code in this directory interacts with other functional areas of the system by ensuring proper integration and functionality of the ONNX Runtime React Native application on Android devices. It is used by the build system and other Android components to ensure seamless communication and data exchange between Java and C++ in the project.

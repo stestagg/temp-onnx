@@ -1,6 +1,0 @@
-covers the functionality of the WebNN execution provider in the ONNX Runtime project. It includes the WebNNProviderFactory class for creating instances of the WebNNExecutionProvider, and the WebNNExecutionProvider class for providing execution capabilities for ONNX models using the WebNN backend. The code also includes the builders subdirectory, which handles the building and validation of WebNN models in ONNX Runtime.
-
-Interactions:
-- The WebNNProviderFactory interacts with other parts of the project by providing a factory for the WebNN execution provider, allowing other components to create instances of the WebNNExecutionProvider.
-- The WebNNExecutionProvider interacts with classes and functions from the ONNX Runtime framework and the WebNN library to create a WebNN context and graph builder, and to get the capabilities of the WebNN execution provider for a given graph.
-- The builders subdirectory interacts with other parts of the project, such as the GraphViewer, OpBuilderFactory, and various helper classes, to construct the WebNN model. It also interacts with the WebNN context and graph objects provided during initialization, and with the OpBuilderRegistrations class to register and store OpBuilder objects for different operators.

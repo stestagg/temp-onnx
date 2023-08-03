@@ -1,1 +1,0 @@
-provides functions for converting Java strings to C++ strings, retrieving byte arrays from a Java object, creating a blob in Java from a byte array, and installing the ONNX Runtime JSI helper in a Java environment. This functionality allows for the exchange of data between Java and C++ in the project.

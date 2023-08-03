@@ -1,3 +1,0 @@
-covers various mathematical operations for the CUDA backend of the ONNX Runtime project. It includes implementations for binary elementwise operations, IsAllFinite operator, bias softmax operation, bitmask dropout operator, bias dropout operation, complex multiplication operation, fused matrix multiplication operation, and FFT operations. 
-
-The code interacts with other parts of the project by including necessary headers, using CUDA runtime functions, and utilizing custom CUDA kernels defined in other files. It also registers operators with the ONNX operator registry, uses the ONNX Runtime API, and relies on the OpKernelContext class for communication with other functional areas of the system.

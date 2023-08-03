@@ -1,1 +1,0 @@
-covers the configuration of linting and formatting tools for the ONNX Runtime project. It specifies the linters to be used, the file patterns to include or exclude, and the commands to run for each linter. The code interacts with other parts of the project by defining the linting and formatting rules that will be applied to the codebase.

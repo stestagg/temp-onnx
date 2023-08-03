@@ -1,3 +1,0 @@
-covers the implementation of the Flash Multi-Head Attention (FMHA) algorithm for the BERT model using TensorRT. It provides optimized CUDA kernels for performing attention calculations in a causal manner. The code is specific to different NVIDIA GPU architectures and uses half-precision floating-point arithmetic (FP16). 
-
-The code in this directory interacts with other functional areas of the system by providing an optimized implementation of the FMHA algorithm. It is likely used as a component within a larger system that utilizes ONNX Runtime for executing deep learning models, such as BERT. Other files and components in the project may depend on this code for efficient attention calculation in the BERT model.

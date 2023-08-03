@@ -1,3 +1,0 @@
-covers various areas of functionality related to training machine learning models using the ONNX Runtime Training project. It includes code for lazy tensors, training operations, models, core functionalities, and the ONNX Runtime Training API. 
-
-The code interacts with other functional areas of the system by including necessary headers, using classes and functions from different directories within the project, and utilizing libraries such as ONNX Runtime, PyTorch, CUDA provider, and MPI communication module. It also interacts with data providers, training runners, tensorboard event writers, and other components within the training API.

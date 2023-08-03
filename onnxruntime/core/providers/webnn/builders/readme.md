@@ -1,7 +1,0 @@
-covers the functionality of building and validating WebNN models in ONNX Runtime. It includes helper functions for getting node argument shapes, checking node and input support, getting supported nodes in a graph, and checking data type support. It also contains the implementation of the ModelBuilder class for building WebNN models from ONNX graphs, the Model class for handling the prediction process using the WebNN API, and the OpBuilderRegistrations class for registering and storing OpBuilder objects for different operators.
-
-Interactions:
-- The code interacts with other parts of the project, such as the GraphViewer, OpBuilderFactory, and various helper classes, to construct the WebNN model.
-- The Model class interacts with the WebNN context and graph objects provided during initialization.
-- The OpBuilderRegistrations class interacts with other parts of the project by providing a central place to register and store OpBuilder objects for different operators.
-- The code in the "impl" subdirectory interacts with the ModelBuilder, Node, and logging classes from the ONNX Runtime framework, as well as the WebNN API, to perform operations on tensors. It also interacts with other builder classes, helper functions, and utility classes from the providers and shared utils of the ONNX Runtime to handle various aspects of building the operators.

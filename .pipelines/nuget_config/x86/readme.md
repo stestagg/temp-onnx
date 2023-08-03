@@ -1,1 +1,0 @@
-manages the dependencies and versions of packages required for the ONNX Runtime project. It ensures that the necessary packages are installed and available for use during development and deployment. This code interacts with other parts of the project by coordinating with the build system to ensure the correct versions of the packages are used.

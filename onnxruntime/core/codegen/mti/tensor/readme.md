@@ -1,3 +1,0 @@
-covers various operations and transformations on tensors in the ONNX Runtime project. It includes implementations for operations such as gather, shape, concatenation, casting, slicing, cropping, reshaping, where, padding, splitting, transposing, tiling, and expanding. 
-
-The code interacts with other parts of the project by using functions and classes from the "core/codegen/mti" and "topi/transform" namespaces. It also relies on utility functions from the "mti_tvm_utils.h" file. The code uses the TVM library for tensor computations and transformations, and it interacts with the ONNX Runtime codebase for accessing and manipulating tensors.

@@ -1,5 +1,0 @@
-covers the experimental API functionality in the ONNX Runtime and Windows Machine Learning (WinML) project. It includes implementations of classes such as LearningModelOperator, LearningModelOperatorSet, LearningModelJoinOptions, LearningModelInputs, LearningModelExperimental, LearningModelOutputs, LearningModelSessionOptionsExperimental, LearningModelSessionExperimental, and LearningModelBuilder. 
-
-These classes provide functionality for managing learning model operators, adding operators to a learning model builder, joining multiple learning models together, managing inputs and outputs of a learning model, managing session options for a learning model session, and building a learning model. 
-
-The code interacts with other functional areas of the system by including necessary header files, using various WinML and ONNX Runtime classes and interfaces, and accessing components such as LearningModelBuilder, LearningModelOperator, LearningModelSession, TensorFeatureDescriptor, ILotusValueProviderPrivate, IDescriptorInfoProvider, and engine objects. It also logs API usage and uses maps and vectors to store and retrieve information.

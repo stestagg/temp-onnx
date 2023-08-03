@@ -1,3 +1,0 @@
-covers the functionality of processing and computing the Einsum operation in the ONNX Runtime project. It includes functions for finalizing the output, preprocessing inputs and subscripts, and providing CPU-specific helper functions for the Einsum operation. 
-
-The code interacts with other functional areas of the system by accessing the EinsumComputePreprocessor class to retrieve information about the output shape and subscript indices, using functions from the EinsumOp class to perform transpose operations, and copying the contents of the candidate output tensor into the buffer of the actual output tensor provided by the execution frame. It also interacts with other parts of the project such as the EinsumEquationPreprocessor, Tensor, and Allocator classes.

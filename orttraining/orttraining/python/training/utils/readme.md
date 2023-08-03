@@ -1,5 +1,0 @@
-covers the functionality of managing and executing subscribers for activation statistics and debugging during training in the ONNX Runtime Training project. It includes classes such as StatisticsSubscriber, GlobalSubscriberManager, and _InspectActivation, which are used as hooks for training. The code interacts with other parts of the project by importing classes from different modules, such as onnxruntime.training.ortmodule and _subscriber_base, and is used in other Python files for training purposes.
-
-Directory: ./data
-Summary:
-The code in this directory provides utility functions and a custom sampler class for data sampling and load balancing in distributed training scenarios. It includes functions for sharding dataset indices across workers and a custom sampler class that balances the data load based on sample complexity. The code interacts with other parts of the project by utilizing functions and classes from the `torch` and `torch.utils.data` modules. Other parts of the project can import and use the provided classes for distributed training.

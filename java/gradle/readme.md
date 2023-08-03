@@ -1,1 +1,0 @@
-covers the functionality of configuring and managing the Gradle wrapper in the ONNX Runtime project. It specifies the settings for the Gradle wrapper, such as distribution base, path, URL, and network timeout. This code interacts with other parts of the project by ensuring that the Gradle wrapper is correctly configured and used during the build process.

@@ -1,3 +1,0 @@
-covers two main areas of functionality. The first area is the interaction with the GPU allocator in PyTorch, providing functions for memory allocation, deallocation, and emptying the GPU cache. The second area is performing various fused operations on multiple tensors in parallel using CUDA, including calculations of L2 norm, tensor scaling, axpby operation, and implementation of the Adam optimizer. 
-
-The code in this directory interacts with other functional areas of the system by including necessary headers, using functions and classes from the ATen and CUDA libraries, and exchanging data with other parts of the project. It is likely used in conjunction with other components of the ONNX Runtime Training project to perform complex training operations on GPUs.

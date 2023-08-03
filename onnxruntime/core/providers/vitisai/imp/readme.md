@@ -1,3 +1,0 @@
-covers the functionality related to the VitisAI extension of the ONNX Runtime project. It includes global API functions, XIR operator registration, TensorProto handling, node operations, compute capability implementation, attribute prototype creation, graph manipulation, and node attribute handling. 
-
-The code interacts with other functional areas of the system by using classes, functions, and namespaces from the ONNX Runtime core, logging, model, graph, and custom op domain. It also includes necessary headers, registers XIR ops, retrieves schema, performs shape inference, accesses graph information, retrieves metadata, and interacts with the execution provider, compute capability, and indexed subgraph classes.

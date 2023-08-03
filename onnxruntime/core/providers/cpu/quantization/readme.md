@@ -1,3 +1,0 @@
-covers the functionality of quantization and dequantization operations, dynamic quantization, quantized linear matrix multiplication, integer matrix multiplication, and integer-based convolution operations for the CPU execution provider in the ONNX Runtime project. 
-
-The code interacts with other functional areas of the system by including necessary header files from the MLAS library and other ONNX Runtime components, using common utility functions, and utilizing the math and MLAS libraries for efficient computation. It also interacts with other files, classes, and components of the project indirectly through the included header files and function calls.

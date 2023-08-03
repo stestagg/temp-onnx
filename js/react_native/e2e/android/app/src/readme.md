@@ -1,5 +1,0 @@
-covers the configuration and permissions for the React Native Onnxruntime Module Android application. It defines the required permissions, specifies the main activity, and includes the application's theme and network security configuration. The code interacts with other parts of the project by referencing the MainApplication class and the MainActivity class, which are defined in other files.
-
-Directory: ./debug
-Summary:
-The code in this directory covers the functionality related to the AndroidManifest.xml file in a React Native application. It grants the application permission to use the SYSTEM_ALERT_WINDOW feature and allows communication over unencrypted HTTP connections. This code interacts with other parts of the project by defining the application's permissions and configuration settings, which are used by the Android operating system to manage the application's behavior and interactions with the device.

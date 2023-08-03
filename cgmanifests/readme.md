@@ -1,1 +1,0 @@
-covers the functionality of generating a code generation manifest (cgmanifest) for the ONNX Runtime project. It interacts with other parts of the project by parsing a Dockerfile and making REST API calls to GitHub. The generated cgmanifest is used by the build system of the ONNX Runtime project to ensure correct dependencies are installed and used during the build process.
