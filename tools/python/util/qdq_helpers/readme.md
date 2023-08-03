@@ -1,0 +1,1 @@
+contains a Python script called "optimize_qdq_model.py" that is responsible for optimizing a QDQ format ONNX model for optimal performance when executed using ONNX Runtime. It applies optimizations to the input model and saves the updated model to an output file. Currently, no optimizations are being performed, but there may be future optimizations implemented.

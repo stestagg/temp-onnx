@@ -1,0 +1,1 @@
+contains an XML configuration file that specifies the required packages and their versions for the project. This file plays a crucial role in managing the project's dependencies by ensuring that the necessary packages are installed. It includes packages such as Microsoft.AI.DirectML, Microsoft.Windows.CppWinRT, and google.protobuf.tools.

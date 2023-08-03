@@ -1,0 +1,1 @@
+contains code that generates and saves various models using the CNTK library. These models include simple neural networks, LSTM networks, GRU networks, and RNN networks. The generated models are saved in the ONNX format for further use and evaluation in the project.

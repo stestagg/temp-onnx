@@ -1,0 +1,1 @@
+contains files that are responsible for generating a component detection manifest file for the project. This manifest file is generated in JSON format and includes registration information for each detected component. Additionally, there is a script that retrieves URL and commit information of submodules from a Git repository and prints it in a specific format.

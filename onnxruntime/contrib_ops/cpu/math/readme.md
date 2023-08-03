@@ -1,0 +1,1 @@
+in the onnxruntime/contrib_ops/cpu directory contains the implementation of a kernel for converting a sparse tensor to a dense tensor and performing matrix multiplication. It supports both COO and CSR sparse formats and handles batching for the dense tensor. The resulting dense tensor is computed using Eigen library functions.

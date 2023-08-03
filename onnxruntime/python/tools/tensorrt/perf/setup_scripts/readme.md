@@ -1,0 +1,1 @@
+contains scripts that handle the downloading, unzipping, and organizing of model files for the project. These scripts are responsible for downloading files from given URLs, extracting them, and creating a JSON file with information about the downloaded models.

@@ -1,0 +1,1 @@
+contains XML files that define the layout for Android activities in the Microsoft.ML.OnnxRuntime.Tests.Droid project. Specifically, the "activity_main.xml" file defines the layout for an Android activity using a RelativeLayout. This directory is responsible for managing the visual appearance and structure of the user interface in the Android application.

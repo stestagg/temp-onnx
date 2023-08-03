@@ -1,0 +1,1 @@
+contains the implementation of CUDA kernels for the NCCL operations in the ONNX Runtime project. It provides functionality for all-reduce, all-gather, and all-to-all operations using the NVIDIA Collective Communications Library (NCCL). The code initializes the NCCL communicator, defines supported data types, and implements the computation logic for each operation.

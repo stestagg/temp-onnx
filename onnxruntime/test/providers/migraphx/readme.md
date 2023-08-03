@@ -1,0 +1,1 @@
+contains unit tests for the MIGraphXExecutionProvider, which is responsible for executing ONNX models using the MIGraphX library. The tests cover various functionalities such as verifying outputs, checking graph inputs and initializers, and evaluating node arguments.

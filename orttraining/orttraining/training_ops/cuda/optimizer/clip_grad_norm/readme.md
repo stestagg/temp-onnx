@@ -1,0 +1,1 @@
+contains the implementation of gradient clipping functionality for the CUDA execution provider in the ONNX Runtime. It includes files for performing gradient clipping on input tensors, calculating the L2 norm, and clipping the gradients based on a maximum norm value. The implementation utilizes CUDA streams and memory management for efficient computation on GPUs.

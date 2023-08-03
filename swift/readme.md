@@ -1,0 +1,1 @@
+contains unit tests for the Swift OnnxRuntimeBindings library. These tests cover important functionality such as retrieving the version string, creating a session, and appending execution providers. The tests ensure that the library functions correctly and handles errors appropriately.

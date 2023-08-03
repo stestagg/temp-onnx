@@ -1,0 +1,1 @@
+contains test cases for the CannExecutionProvider, which is responsible for executing ONNX models on a specific hardware platform. These test cases verify the functionality of the provider by creating computational graphs and running them using the provider. The tests check if the outputs of the graphs match the expected values.

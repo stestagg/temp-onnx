@@ -1,0 +1,1 @@
+in the project contains the necessary files for configuring and managing the Gradle build tool. It includes the "gradle-wrapper.properties" file, which sets the properties for the Gradle distribution, such as the download URL, checksum, and storage location. This directory plays a crucial role in ensuring the correct version of Gradle is used for building the project.

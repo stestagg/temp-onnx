@@ -1,0 +1,1 @@
+contains helper functions and support for various functionalities related to device handling and adapter metadata in the project. It includes functions for checking if a device supports float16 data type, retrieving adapter metadata, and enumerating adapters using DXGI and DXCore.

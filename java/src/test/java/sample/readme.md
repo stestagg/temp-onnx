@@ -1,0 +1,1 @@
+contains code for scoring MNIST data using a pytorch CNN model and a scikit-learn model. It handles loading the models, reading test data in libsvm format, preprocessing the data, and running inference on the models. It also calculates the accuracy and generates a confusion matrix. This directory is responsible for the functionality related to scoring MNIST data in the project.

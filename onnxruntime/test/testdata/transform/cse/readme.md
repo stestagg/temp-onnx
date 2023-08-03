@@ -1,0 +1,1 @@
+contains code that generates and exports multiple ONNX models representing different computational graphs with various operations and inputs. The code utilizes the ONNX library to create the models and perform shape inference to ensure their validity. The exported models are saved as ONNX files for further use in the project.

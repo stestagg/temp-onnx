@@ -1,0 +1,1 @@
+contains the protocol buffer messages used in the project for representing various data types and configurations. These messages include mappings of strings to different value types, vectors of different value types, and traditional machine learning data. Additionally, the directory includes a message for configuring test cases.

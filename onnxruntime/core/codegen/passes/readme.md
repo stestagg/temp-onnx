@@ -1,0 +1,11 @@
+in the onnxruntime/core/codegen directory of the project contains code related to various aspects of the code generation process. It includes code for scheduling tensors, creating and evaluating intermediate representation (IR) for TVM code generation, managing the code generation context, and performing weight layout transformations. 
+
+The "scheduler" subdirectory handles the optimization of tensor scheduling, determining the execution order of operations based on different criteria. It includes implementations for the Softmax scheduler, evaluation rules for the TVM scheduler, and the TVMScheduleBuilder class for managing TVM schedules.
+
+The "op_ir_creator" subdirectory is responsible for creating and evaluating intermediate representation (IR) for TVM code generation. It includes implementations for various operations, such as data type conversion, mathematical operations, and neural network operations. It also handles code generation for mathematical operations like binary and unary operations, as well as specific operations like Clip, Gemm, LogSoftmax, MatMul, Softmax, and MatMulInteger. Additionally, it provides implementations for convolution operations, LSTM cell computation, and pooling operations in the project's machine learning functionality.
+
+The "utils" subdirectory contains code related to TVM code generation. It includes the CodeGenContext class for managing the code generation context, as well as code for converting data types, shapes, and profiling events.
+
+The "weight_layout" subdirectory handles weight layout transformations in the project. It includes code for different types of transformations, such as tiling, transpose, and vertical stripes. It provides functions for converting between nominal and actual coordinates and calculating the actual shape of weight tensors after transformations. The WeightLayout class is responsible for creating a layout marshalling TVM operation.
+
+Overall, the "passes" directory plays a crucial role in the project's code generation process, including scheduling tensors, creating intermediate representation, managing the code generation context, and performing weight layout transformations.

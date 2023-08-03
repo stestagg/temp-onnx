@@ -1,0 +1,1 @@
+contains the implementation of the ORTInvoker class, which is responsible for invoking ONNX operations in eager mode. It handles the creation and resolution of graphs, finding the appropriate kernel for operations, checking input tensors, creating kernels, and computing output tensors.

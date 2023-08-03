@@ -1,0 +1,1 @@
+contains test cases for signal processing operations in the project. These tests cover operations such as Discrete Fourier Transform (DFT), Short-Time Fourier Transform (STFT), and window functions like Hann, Hamming, and Blackman. The tests ensure that the signal processing operations produce the expected output for different input signals and parameters.

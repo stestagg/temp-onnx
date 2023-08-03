@@ -1,0 +1,1 @@
+in the project contains a Dockerfile that sets up a CentOS 7 environment with specific environment variables and necessary scripts for installation. It also includes a "scripts" subdirectory with various scripts for installing dependencies and packages on a CentOS system. These scripts ensure the proper configuration and setup of the project on a CentOS environment.

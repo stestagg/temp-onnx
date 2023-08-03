@@ -1,0 +1,1 @@
+contains a test data generation script for the SGD optimizer tests in the project. It generates test data for both single weight and multiple weights scenarios using two dummy modules. The generated test data includes parameters and gradients, which are saved in JSON files for each device (cuda and cpu).

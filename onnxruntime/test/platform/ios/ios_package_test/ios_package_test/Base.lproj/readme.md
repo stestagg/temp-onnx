@@ -1,0 +1,1 @@
+contains XML storyboard files for an iOS app. These files define the layout and properties of view controllers and their associated views. They also include dependencies and capabilities required for the app to run properly.

@@ -1,0 +1,1 @@
+contains test cases for the XNNPACK execution provider in the ONNX Runtime. It tests various operations such as convolution, pooling, softmax, and resize using both floating-point and quantized data types. The tests verify the correctness and performance of the XNNPACK execution provider by comparing the results with the CPU execution provider.

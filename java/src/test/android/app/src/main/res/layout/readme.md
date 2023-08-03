@@ -1,0 +1,1 @@
+contains XML files that define the layout for various activities in an Android application. In this specific file, "activity_main.xml", the layout for the main activity is defined. It uses ConstraintLayout to position a TextView element at the center of the screen, displaying the text "Hello World!".

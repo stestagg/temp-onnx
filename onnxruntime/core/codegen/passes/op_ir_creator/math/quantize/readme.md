@@ -1,0 +1,1 @@
+contains the implementation of the MatMulInteger OpIRCreator, which is responsible for evaluating the MatMulInteger operation in the TVM code generation module. It performs matrix multiplication on two input tensors, A and B, and produces an output tensor, Y. The implementation includes support for casting the input tensors to int32 and handling skipped trailing inputs.

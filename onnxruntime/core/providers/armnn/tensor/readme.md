@@ -1,0 +1,1 @@
+contains the implementation of the Concat operator for the ArmNN execution provider in the ONNX Runtime project. This operator is responsible for concatenating multiple input tensors along a specified axis to create a single output tensor. The implementation leverages the ArmNN library to optimize and execute the concatenation operation on Arm-based devices.

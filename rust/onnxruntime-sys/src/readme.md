@@ -1,0 +1,1 @@
+contains code that includes external bindings and defines types for the project. It also sets up platform-specific types for Windows and non-Windows operating systems.

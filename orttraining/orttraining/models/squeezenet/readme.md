@@ -1,0 +1,1 @@
+contains the code for training a machine learning model using the Squeezenet architecture. It includes the main function for loading data, initializing training parameters, and running the training process. The code also includes a callback function for evaluating the model's performance during training.

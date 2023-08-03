@@ -1,0 +1,1 @@
+contains the implementation of the OStreamSink class, which is responsible for sending log messages to an output stream. It formats the log message with various details and writes it to the stream. Additionally, the directory defines the WOStreamSink class for Windows systems, which performs the same functionality but with wide strings.

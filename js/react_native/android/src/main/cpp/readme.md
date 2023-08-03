@@ -1,0 +1,1 @@
+contains C++ code that provides functions for converting between Java strings and C++ strings, retrieving and storing byte arrays from Java objects, and installing functions in a JavaScript Interface (JSI) runtime. These functions are used to resolve and store array buffers in the project.

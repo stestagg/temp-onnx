@@ -1,0 +1,1 @@
+contains a batch file that sets up the environment variables for the Visual C++ toolchain and runs a Python script to build the project on Windows. It specifically uses the 14.11 toolset and requires Python 3.6 or higher.

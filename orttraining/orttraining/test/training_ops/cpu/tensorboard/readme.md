@@ -1,0 +1,1 @@
+contains unit tests for the summary operations in the project. These tests verify the functionality of various summary operations, such as SummaryScalar, SummaryHistogram, SummaryMerge, and SummaryText. The tests create summaries with different attributes and inputs, and then check if the expected outputs are produced.

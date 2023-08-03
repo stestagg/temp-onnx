@@ -1,0 +1,1 @@
+contains a file called "gelu_approximation_gen.py" that defines three ONNX graphs for different variations of the Gelu activation function. These graphs represent different computation flows and the Gelu function is the main operation in all three graphs. The graphs are saved as ONNX models for later use.

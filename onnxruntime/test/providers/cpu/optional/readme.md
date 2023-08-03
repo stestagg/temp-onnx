@@ -1,0 +1,1 @@
+contains test cases for the Optional and OptionalGetElement operations in the onnxruntime project. These tests validate the creation, retrieval, and manipulation of optional tensors and optional tensor sequences. Additionally, the tests verify the re-use of input OrtValues as output OrtValues in the allocation planner.

@@ -1,0 +1,1 @@
+contains the implementation of the QDQ (Quantization-Dequantization) selector manager for the project. It handles the registration of different selectors for various types of operators and initializes the selectors map. The selector manager is responsible for selecting and returning QDQ node groups based on the input graph.

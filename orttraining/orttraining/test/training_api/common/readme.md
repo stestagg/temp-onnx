@@ -1,0 +1,1 @@
+in the "training_api" module of the project contains the implementation of a synthetic data loader. This loader is used for generating random input data of various types and shapes, and retrieving batches of this synthetic data for training purposes in the training API.

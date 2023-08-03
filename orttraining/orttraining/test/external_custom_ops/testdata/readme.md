@@ -1,0 +1,1 @@
+contains a file called "gen_model.py" that is responsible for generating and saving an ONNX model with a custom operator called "Foo". The model takes a 2x2 tensor as input and produces a 2x2 tensor as output. This model is an important component of the project and can be used for various machine learning tasks.

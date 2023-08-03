@@ -1,0 +1,1 @@
+serves as a placeholder in the project's UITest XCScheme. It is required for the detox test build.

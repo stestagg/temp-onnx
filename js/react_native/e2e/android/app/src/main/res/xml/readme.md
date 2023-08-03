@@ -1,0 +1,1 @@
+contains XML configuration files that play a role in configuring various aspects of the project. These files are used to define network security settings, allowing cleartext traffic for specific domains.

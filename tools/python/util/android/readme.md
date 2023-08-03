@@ -1,0 +1,1 @@
+contains code related to managing Android virtual devices and SDK tools in the larger software project. It provides functionality for creating virtual devices, getting SDK tool paths, starting and stopping emulators, and managing processes. This directory is crucial for the Android-related functionality of the project.

@@ -1,0 +1,1 @@
+contains files that define the theme for the application, specifying the primary and secondary brand colors, as well as the status bar color. These files are used to customize the visual appearance of the application during nighttime or dark mode.

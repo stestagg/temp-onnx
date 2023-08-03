@@ -1,0 +1,1 @@
+contains CUDA code files that implement memory-efficient attention for specific system architectures. These files dispatch the appropriate block size based on the input data type and compute capability of the GPU. The code supports both half precision and float precision input data. This functionality is a significant part of the larger software project.

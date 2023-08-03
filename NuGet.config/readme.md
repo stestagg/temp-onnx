@@ -1,0 +1,1 @@
+contains an XML configuration file that is used to disable source control integration and specify the package sources for the project. This file is important for managing the project's dependencies and ensuring that the correct packages are used during development and deployment.

@@ -1,0 +1,1 @@
+contains test cases for the SparseToDenseMatMul operation in the project. It focuses on converting sparse matrices to dense matrices using both the CSR and COO formats. The tests cover various input types and output formats, including boolean, vector, and span. The test cases ensure the accuracy of the conversion and multiplication operations.

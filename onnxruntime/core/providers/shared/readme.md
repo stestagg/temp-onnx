@@ -1,0 +1,9 @@
+in the ONNX Runtime project contains files and subdirectories that play crucial roles in various aspects of the project's functionality. 
+
+The "common.cc" file defines functions to get and set the provider host, which is a component that allows interaction with the underlying system. This functionality is essential for the project's overall operation.
+
+The "symbols.def" file contains exports for the provider module, including functions for getting and setting the host. This file contributes to the project's ability to interact with the provider module effectively.
+
+The "node_unit" subdirectory contains the implementation of the NodeUnit class, which represents a unit of computation in a graph. It provides functionality to identify and categorize different types of operations, such as QLinearOps, unary ops, binary ops, etc. This subdirectory also includes methods to retrieve input and output definitions for a given NodeUnit and functions to create NodeUnits for a given graph, including QDQ (quantize-dequantize) NodeUnits. The "node_unit" subdirectory is crucial in defining and managing the units of computation within the project's graph-based computations.
+
+The "utils" subdirectory contains utility functions and a helper class for working with node attributes. These utilities include functions for retrieving the data type of a node argument and extracting the minimum and maximum values for a Clip node. The helper class provides methods for retrieving attribute values of different types from a node. The "utils" subdirectory plays a crucial role in providing essential functionality for handling node attributes in the ONNX Runtime project.

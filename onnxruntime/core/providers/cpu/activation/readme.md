@@ -1,0 +1,1 @@
+contains the implementation of various activation functions used in the project. It includes the registration and definition of kernels for unary element-wise operations such as ReLU, Sigmoid, and Tanh. Additionally, it provides functors for element-wise ranged transformations and specific implementations for the Sigmoid and Tanh functions.

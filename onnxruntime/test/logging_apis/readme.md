@@ -1,0 +1,1 @@
+contains unit tests for the logging functionality in the project. It tests the output and filtering of the logging APIs, as well as the ability of the logging macros to bypass calling the C logging APIs. The tests cover various scenarios and severity levels to ensure the logging functionality is working correctly.

@@ -1,0 +1,1 @@
+contains the code for the Gemm operator in the ACL execution provider. It includes both versioned and non-versioned kernel implementations for matrix multiplication. This directory is responsible for the mathematical computations related to the Gemm operator in the project.

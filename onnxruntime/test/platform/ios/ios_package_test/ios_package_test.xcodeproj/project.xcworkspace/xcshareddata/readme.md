@@ -1,0 +1,1 @@
+in the project "ios_package_test" contains the file "IDEWorkspaceChecks.plist" which sets a flag to indicate a warning related to computing on a 32-bit Mac has been generated. This directory likely plays a role in managing and configuring the Xcode workspace for the iOS package test project.

@@ -1,0 +1,1 @@
+contains the configuration file "targets.xml" which is responsible for configuring native references for different platforms in the project. It sets specific properties and includes necessary frameworks for each reference.

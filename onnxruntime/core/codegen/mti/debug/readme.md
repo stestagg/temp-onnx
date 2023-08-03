@@ -1,0 +1,1 @@
+in the onnxruntime/core/codegen/mti directory contains a file called tvm_print.cc. This file is responsible for printing the values of a TVM tensor. It provides functions for printing the tensor values and creating an external call to print the tensor. The code supports different data types such as float, int, and uint, and utilizes the TVM framework for tensor manipulation.

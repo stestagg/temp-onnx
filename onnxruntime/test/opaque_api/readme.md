@@ -1,0 +1,1 @@
+contains code for a custom Opaque type in the project. It demonstrates how to pass a string within a scalar Tensor and store it in the custom Opaque type. The code also includes a kernel that operates on the custom Opaque type, replacing instances of 'h' with '_'. Additionally, the directory includes test cases to validate the functionality of the custom Opaque type.

@@ -1,0 +1,1 @@
+contains a configuration file that specifies settings for code linting and formatting tools used in the project. It ensures consistent code style and quality by defining line length, excluded directories, target Python versions, and rules to disable or ignore in each tool.

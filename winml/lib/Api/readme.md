@@ -1,0 +1,5 @@
+contains the implementation of various classes that are essential for working with machine learning models in the project. These classes include ImageFeatureDescriptor, ImageFeatureValue, LearningModel, LearningModelBinding, LearningModelDevice, LearningModelEvaluationResult, LearningModelSession, LearningModelSessionOptions, MapFeatureDescriptor, NumericData, SequenceFeatureDescriptor, StringData, TensorFeatureDescriptor, and VectorBackedBuffer.
+
+These classes provide functionality for representing and manipulating image features, loading and accessing machine learning models, binding input and output values to models, managing the execution of models, and retrieving evaluation results. They also support various options for configuring model sessions and handle different types of data, such as maps, sequences, strings, and tensors.
+
+Overall, the "Api" directory plays a crucial role in enabling the project to work with machine learning models effectively, providing the necessary tools and functionality for model management, data manipulation, and evaluation.

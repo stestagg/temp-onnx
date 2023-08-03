@@ -1,0 +1,1 @@
+in the JavaValidator project contains files that define color values, string resources, and the base application theme. These files play a significant role in customizing the appearance of the application, including the primary and secondary brand colors, status bar color, and application name.

@@ -1,0 +1,1 @@
+contains test cases for registering custom ops in the ONNX Runtime. It tests the registration of custom ops using both the C API and the C++ API. The test cases ensure that the custom ops are properly registered and can be used in a session.

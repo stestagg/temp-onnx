@@ -1,0 +1,1 @@
+in the project contains the file "machine_comprehension.rs" which defines machine comprehension models available for download. It provides different variants of machine comprehension models such as BiDAF, BERTSquad, RoBERTa, and GPT2. Each variant has its own specific functionality and source. The file also includes implementations for fetching the download URLs of the models.

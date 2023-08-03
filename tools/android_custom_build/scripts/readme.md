@@ -1,0 +1,1 @@
+contains the build.sh file, which is a bash script responsible for building an Android Archive (AAR) package for the project. It takes in various configuration files and generates the AAR package with specific operations included. The resulting package is then copied to the specified output directory.

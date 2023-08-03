@@ -1,0 +1,1 @@
+contains the colors.xml file, which defines the primary, primary dark, and accent colors used in the project. This file is responsible for managing the color scheme and visual appearance of the project.

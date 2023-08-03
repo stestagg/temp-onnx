@@ -1,0 +1,1 @@
+contains the necessary files for generating and compiling a CUDA extension module called "torch_gpu_allocator". This module provides functions for allocating and deallocating GPU memory using a caching allocator. It is an important component of the project's GPU memory management functionality.

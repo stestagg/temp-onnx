@@ -1,0 +1,1 @@
+in the project contains the implementation of arithmetic operations and mathematical functions for the BFloat16 data type in the ROCm framework. It also includes definitions and functions related to GPU warps, providing essential functionality for GPU computations in the project.

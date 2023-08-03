@@ -1,0 +1,1 @@
+contains test cases for the TensorRT execution provider in the ONNX Runtime project. These tests cover various functionalities such as engine cache, profile cache, timing cache, and node index mapping. The tests ensure that the execution provider functions correctly and produces the expected outputs. Both static and dynamic input shapes are tested.

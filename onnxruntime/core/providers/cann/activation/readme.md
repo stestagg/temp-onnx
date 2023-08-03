@@ -1,0 +1,1 @@
+in the project contains the implementation of activation functions for the CANN execution provider. It includes functions for preparing input and output tensors, as well as computing the activation function using the ACL engine. The supported activation function in this directory is Relu.

@@ -1,0 +1,1 @@
+contains CUDA functions for atomic addition operations on various data types, such as float, double, half, and BFloat16. These functions are crucial for efficient parallel computation on GPUs. Additionally, the directory includes a template function that enables atomic addition for different data types and array sizes.

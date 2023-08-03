@@ -1,0 +1,1 @@
+contains generated code for the FlatBuffers compiler. It defines enums and classes related to attribute types, dimension values, tensor data types, node types, and type info values. These definitions are used to represent and manipulate shapes and dimensions in the ONNX Runtime experimental library.

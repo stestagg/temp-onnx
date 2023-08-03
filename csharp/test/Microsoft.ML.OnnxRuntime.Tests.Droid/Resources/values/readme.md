@@ -1,0 +1,1 @@
+contains resource files that define colors, strings, and styles used in the Microsoft.ML.OnnxRuntime.Tests.Droid application. These files play a crucial role in defining the visual appearance and user interface of the application, including primary, primary dark, and accent colors, as well as the app name, action settings, and base application theme.

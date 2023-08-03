@@ -1,0 +1,1 @@
+contains Python scripts that define ONNX models for different operations on tensors. These scripts perform shape inference on the models and save them as ONNX files. The directory is part of a larger software project that involves working with ONNX models and performing various operations on tensors.

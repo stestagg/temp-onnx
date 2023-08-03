@@ -1,0 +1,1 @@
+in the project "orttraining" contains the implementation of the DivGrad operation for the ROCm execution provider in the ONNX Runtime. It handles different cases of input shapes and computes the gradients of the division operation with respect to its inputs using the ROCm backend.

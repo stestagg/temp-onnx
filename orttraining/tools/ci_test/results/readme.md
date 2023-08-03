@@ -1,0 +1,1 @@
+contains files that play a role in monitoring and analyzing the performance of machine learning models and code execution. These files include tables with loss values at different steps, allowing for evaluation and comparison of performance over time. The loss values provide insights into the effectiveness of the models and code, enabling adjustments and improvements to be made.

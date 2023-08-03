@@ -1,0 +1,1 @@
+contains a file called "test_external_transformers.cc" which defines a custom rewrite rule for optimizing a graph in the training module of a larger system. This rule is registered as an external transformer and applied to the graph under certain conditions.

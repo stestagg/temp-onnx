@@ -1,0 +1,1 @@
+contains a batch script that is responsible for initiating the build process of the project on a Windows system. It executes a Python build script and specifies the build directory. This script is crucial for building the project and requires Python 3.6 or higher to be installed on the system.

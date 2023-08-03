@@ -1,0 +1,1 @@
+contains the necessary files and scripts for working with the tensorboard library in the project. It declares and fetches the tensorboard library, sets the root directory, and generates the tensorboard protos. It also includes the necessary dependencies and sets specific compile options for the tensorboard library on Windows.

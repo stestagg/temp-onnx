@@ -1,0 +1,1 @@
+contains unit tests for the CoreMLExecutionProvider class, which is responsible for executing ONNX models using the CoreML framework. The tests cover various scenarios, including executing models with multiple add nodes, supporting the ArgMax op, and executing ONNX format models.

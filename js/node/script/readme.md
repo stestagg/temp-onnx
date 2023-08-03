@@ -1,0 +1,1 @@
+contains the build.ts file, which is responsible for configuring and building the project based on command line arguments. It uses the cmake-js library to configure the build environment and then uses cmake to build the project. The file handles different configurations, architectures, and rebuild options.

@@ -1,0 +1,1 @@
+contains a dummy native Android Test file called "DetoxTest.java" that is required by the Detox testing framework. This file sets up the Detox configuration and runs the Detox tests using the provided activity rule.

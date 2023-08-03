@@ -1,0 +1,1 @@
+contains unit tests for the forward and backward computation of an LSTM model in the ORT Training project. These tests ensure the correctness, accuracy, and robustness of the LSTM implementation by comparing expected outputs with actual outputs. The tests cover various input sizes and directions, validating the functionality of the LSTM model.

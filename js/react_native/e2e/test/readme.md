@@ -1,0 +1,1 @@
+contains test files and configurations for the OnnxruntimeModuleExample in the React Native project. It includes a Detox test setup with two test cases to check the existence of the output component and the correctness of the inference result value. The tests are run on both iOS and Android platforms.

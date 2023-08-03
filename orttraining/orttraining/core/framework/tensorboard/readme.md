@@ -1,0 +1,1 @@
+contains the core framework for Tensorboard, a visualization and analysis tool used in the project. It includes the implementation of the CRC32C algorithm for data integrity checks, as well as an event writer that allows writing records, events, histograms, and scalars to generate files in a specific format for visualization and analysis in Tensorboard.

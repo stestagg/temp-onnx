@@ -1,0 +1,1 @@
+contains code and data for testing purposes related to the BERT and GPT2 models in the project. It includes scripts to convert large models into smaller ones by modifying input and output shapes, updating weights, and resizing dimensions. The directory also generates test data for the resized models by randomly generating input tensors and running inference.

@@ -1,0 +1,1 @@
+contains utility functions for saving and loading data in the ORT format. It includes functions for converting data between the ORT format and the ONNX format, such as string data, type information, tensor shapes, value information, and opset imports. This directory plays a crucial role in defining the core data structures and functionality of the ONNX Runtime project.

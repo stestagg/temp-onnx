@@ -1,0 +1,1 @@
+contains vector image files that are used for visual elements in the Android app. These files define shapes with gradient and solid fills, and contribute to the overall design and appearance of the app.

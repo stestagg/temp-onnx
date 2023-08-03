@@ -1,0 +1,1 @@
+contains the implementation of the AdamWOptimizer class, which is responsible for optimizing weights in a machine learning model. It includes methods for computing updated weights using the AdamW optimization algorithm. Additionally, the directory includes helper functions for preparing input data and copying the updated weights to the output.

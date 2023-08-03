@@ -1,0 +1,1 @@
+contains files related to the dynamic-link library (DLL) functionality of the project. It includes the entry point for the DLL application and handles events related to the DLL. Additionally, it defines version information for the Windows DLL. The directory plays a crucial role in managing the DLL functionality of the project.

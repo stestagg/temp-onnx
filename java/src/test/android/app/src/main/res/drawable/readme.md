@@ -1,0 +1,1 @@
+contains files that define vector graphics used in the project. These graphics are used to create visual representations of various elements, such as icons and backgrounds. The files in this directory contribute to the overall visual design and user interface of the project.

@@ -1,0 +1,1 @@
+contains code for training a neural network model on the MNIST dataset using PyTorch and ONNX Runtime (ORT). It includes functions for training the model, testing its performance, and defining the model architecture. The code also handles data loading, device configuration, and distributed training using MPI.

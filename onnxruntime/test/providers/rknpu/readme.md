@@ -1,0 +1,1 @@
+contains test cases for the RknpuExecutionProvider in the ONNX Runtime project. These test cases verify the loading, initialization, and execution of models using the RknpuExecutionProvider. The tests include creating simple graphs with Add nodes and verifying the output values.

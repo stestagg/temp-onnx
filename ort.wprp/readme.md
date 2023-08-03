@@ -1,0 +1,1 @@
+contains an XML configuration file that defines the profiles and settings for a Windows Performance Recorder. It specifies the event collectors and providers, as well as the logging modes and detail levels for the OrtTraceLoggingProvider component. This configuration file plays a crucial role in managing the performance recording and logging functionality of the project.

@@ -1,0 +1,1 @@
+contains the code for an empty activity app used for testing purposes in the larger software project.

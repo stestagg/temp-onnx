@@ -1,0 +1,1 @@
+in the project contains the CUDA implementation of the ATen operator kernel for the ONNX runtime. It includes the necessary headers and namespaces, and registers the ATen operator with the CUDA execution provider. This directory is responsible for providing CUDA-specific functionality for the ATen operator in the project.

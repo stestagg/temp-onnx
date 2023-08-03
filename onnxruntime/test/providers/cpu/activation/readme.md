@@ -1,0 +1,1 @@
+contains unit tests for various activation functions, such as Sigmoid, Tanh, Relu, and PRelu, as well as tests for gradient calculations of these activation functions. These tests cover different data types and execution providers.

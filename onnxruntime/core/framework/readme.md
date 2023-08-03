@@ -1,0 +1,1 @@
+contains the core functionality of the project. It includes files related to memory allocation and management, data transfer operations, kernel registration and execution, tensor manipulation, session management, and execution planning. The files in this directory implement key components and utilities that are essential for the project's execution and performance.

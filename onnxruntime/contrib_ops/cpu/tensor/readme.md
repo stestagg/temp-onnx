@@ -1,0 +1,1 @@
+contains the implementation of the ShrunkenGather operation, which is a custom operator in the project. This operation is used for gathering elements from a tensor based on indices. The code in this directory includes input validation and calls the Compute function of the Gather operation to perform the actual gathering.

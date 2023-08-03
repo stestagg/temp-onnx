@@ -1,0 +1,1 @@
+configures lintrunner, a tool used for linting and formatting code in the project. It specifies the linters to be used, the file patterns to include and exclude, and the commands to run for each linter. The directory also provides instructions for installing lintrunner and its dependencies, as well as links to additional resources for creating or modifying linting rules.

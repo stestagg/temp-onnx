@@ -1,0 +1,1 @@
+contains code and data for testing purposes related to the BERT model in the project. It includes a script to convert a large BERT model into a smaller one by modifying input and output shapes and updating weights. Additionally, the directory generates test data for the resized model.

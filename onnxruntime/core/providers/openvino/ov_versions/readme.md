@@ -1,0 +1,7 @@
+contains files that are part of the OpenVINO Execution Provider (EP) in the project. These files implement various capabilities and functionalities related to the OpenVINO EP. 
+
+The "capability.cc" file implements the GetCapability class, which analyzes an ONNX model graph and determines the capabilities of the OpenVINO EP. It identifies unsupported nodes and clusters within the graph and partitions the graph into subgraphs that can be executed by the OpenVINO EP. The subgraphs are represented as ComputeCapability objects, which contain input and output names.
+
+The "data_ops.cc" file implements the DataOps class, which checks the compatibility of ONNX operations with the OpenVINO backend. It verifies if operations are supported based on their op type, version, and device type. It also checks the compatibility of input and output data types and shapes. The class provides methods to determine if an operation is supported only in models and handles special conditions for cluster size one.
+
+The "utils.cc" file contains various functions and utilities for the OpenVINO Execution Provider. These functions include getting the input count of a node, checking if an operation is supported only in models, appending clusters to a subgraph, getting the ONNX operator set version, partitioning clusters based on unsupported nodes, identifying connected nodes in a graph, and more. These functions are used to handle the execution and optimization of ONNX models using the OpenVINO framework.

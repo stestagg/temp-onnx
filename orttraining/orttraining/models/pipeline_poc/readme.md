@@ -1,0 +1,1 @@
+contains the main program for running P2P (point-to-point) graphs in the project. It handles parsing command-line arguments, setting up the environment, initializing MPI (Message Passing Interface), loading and initializing the ONNX models, and running the models for a specified number of steps. The program utilizes CUDA for GPU acceleration.

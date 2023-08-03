@@ -1,0 +1,1 @@
+contains the Swift Package Manager configuration file for the project. It defines the project's dependencies and targets. Additionally, it includes logic to add the ORT iOS Pod archive as a binary target, either by specifying a local path or by downloading it from a release branch.

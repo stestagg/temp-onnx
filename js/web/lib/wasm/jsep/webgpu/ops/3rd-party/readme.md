@@ -1,0 +1,1 @@
+contains code related to activation functions, convolutional matrix multiplication, and matrix multiplication using packed memory access. It includes utility functions for calculating indices and generating source code. The code is optimized for WebGPU devices and supports different data formats and dimensions.

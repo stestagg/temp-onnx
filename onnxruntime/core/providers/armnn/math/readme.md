@@ -1,0 +1,1 @@
+contains the implementation of the Gemm operator kernel for the ArmNN execution provider in the ONNX Runtime project. It provides the necessary type constraints and supports different versions of the ONNX specification.

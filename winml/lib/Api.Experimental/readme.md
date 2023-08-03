@@ -1,0 +1,5 @@
+contains the implementation of various classes that are responsible for building, managing, and manipulating learning models in the project. These classes include LearningModelBuilder, LearningModelExperimental, LearningModelInputs, LearningModelJoinOptions, LearningModelOperator, LearningModelOperatorSet, LearningModelOutputs, LearningModelSessionExperimental, and LearningModelSessionOptionsExperimental. 
+
+These classes provide functionality for creating inputs, outputs, and operators for the learning models, as well as saving the models to files. They also allow for joining multiple models together, setting model names, managing input and output descriptors, and retrieving session options. 
+
+Overall, this directory plays a crucial role in the project by providing the necessary tools and functionality for working with learning models and managing learning model sessions.

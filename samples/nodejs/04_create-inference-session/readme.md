@@ -1,0 +1,1 @@
+contains code that is responsible for creating inference sessions from ONNX model files, Node.js buffers, and ArrayBuffers. It utilizes the onnxruntime library and handles any errors that occur during the inference process. This functionality is a significant part of the project's overall goal of performing inference using ONNX models in a Node.js environment.

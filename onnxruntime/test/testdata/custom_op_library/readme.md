@@ -1,0 +1,1 @@
+contains the implementation of custom operations for the project. It defines multiple custom op kernels and registers them with the ONNX Runtime. The custom ops include addition, rounding, multiplication, fusion, selection, filtering, and box operations. The directory also includes the necessary files for registering the custom ops in a library.

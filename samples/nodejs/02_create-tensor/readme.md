@@ -1,0 +1,1 @@
+contains code that demonstrates how to create tensors of different types and dimensions using the onnxruntime library. It showcases the creation of float, boolean, scaler, and string tensors with various dimensions. Additionally, it includes examples of bad usages that may result in errors being thrown.

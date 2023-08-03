@@ -1,0 +1,1 @@
+contains code that is essential for the project's use of ONNX models in a Node.js environment. It includes functionality for loading and running ONNX models, creating tensors of different types and dimensions, and creating inference sessions from model files and buffers. These features allow for the execution, analysis, and inference of ONNX models within the project.

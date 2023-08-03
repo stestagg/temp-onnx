@@ -1,0 +1,1 @@
+in the project contains files related to the integration of the mimalloc library. Specifically, the file "mimalloc_overloads.cc" includes a conditional compilation directive to add a definition for new/delete using the mimalloc library. This directory plays a role in optimizing memory allocation and deallocation in the project.

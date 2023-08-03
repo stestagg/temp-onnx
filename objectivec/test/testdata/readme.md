@@ -1,0 +1,1 @@
+contains scripts and files related to generating and converting ONNX models in the project. It includes a script called "gen_models.sh" that executes commands to convert models to a specific optimization level. Additionally, there is a file called "single_add_gen.py" that creates a single-node graph for performing addition between input tensors and saves it as an ONNX model file.
