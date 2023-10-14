@@ -3,165 +3,390 @@ apis: c
 apis: c#
 apis: c++
 apis: c++: hip
-apis: c++: hipify
 apis: csharp
 apis: java
-apis: java: react
-apis: objective c
+apis: javascript
+apis: javascript: react
+apis: objective-c
 apis: python
 architectures
-architectures: amd
-architectures: apple silicon
-architectures: arm
-architectures: arm: aarch64
-architectures: arm: neon
-architectures: arm32
-architectures: arm64
-architectures: avx
-architectures: avx512
 architectures: cpu
+architectures: cpu: arm
+architectures: cpu: arm: apple silicon
+architectures: cpu: arm: aarch64
+architectures: cpu: arm: neon
+architectures: cpu: x86
+architectures: cpu: x86: extensions
+architectures: cpu: x86: x64
+architectures: cpu: power
+architectures: accelerator
+architectures: accelerator: vpu
+architectures: accelerator: npu
 architectures: gpu
 architectures: gpu: nvidia
-architectures: ibm power
-architectures: ibm power: power10
-architectures: npu
-architectures: vad
-architectures: vpu
-architectures: x64
-architectures: x86
-architectures: x86: amx
-azure
+architectures: gpu: rocm
 execution providers
+execution providers: acl
 execution providers: armnn
+execution providers: azure
+execution providers: cann
 execution providers: coreml
+execution providers: cpu
 execution providers: cuda
-execution providers: cuda: nccl
-execution providers: direct ml
-execution providers: ep
+execution providers: directml
+execution providers: dnnl
+execution providers: js
 execution providers: migraphx
 execution providers: nnapi
-execution providers: onednn
-execution providers: openvino: ov
-execution providers: provider
+execution providers: openvino
+execution providers: qnn
+execution providers: rknpu
 execution providers: rocm
-execution providers: rocm: rocblas
+execution providers: shared
+execution providers: snpe
 execution providers: tensorrt
 execution providers: tvm
-featurizers
+execution providers: vitisai
+execution providers: webnn
+execution providers: winml
+execution providers: xnnpack
 graph
-graph: graph processing: 3d unet
-graph: graph processing: abseil
-graph: graph processing: edge
-graph: graph processing: gist
-graph: graph processing: weight
+graph: graph processing
 graph: optimization
 graph: partition
-graph: protobuf
+graph: serialization
 inferencing
 models
-models: customer model
-models: learning models
+models: custom model
+models: learning model
 models: model conversion
-models: model graphs
 models: model processing
 models: model processing: fusion
 models: model support
 models: model testing
 models: model transformation
 models: model types
-models: model types: beamsearch
-models: model types: bert
-models: model types: bfloat16
+models: model types: transformer-based: bert
 models: model types: convolution
-models: model types: convolution: cnn
-models: model types: deepthink longformer
-models: model types: float16
+models: model types: transformer-based: deepthink longformer
 models: model types: mtdnn
-models: model types: nuphar
+execution providers: tvm: nuphar
 models: model types: rcnn
 models: model types: resnet
 models: model types: stable diffusion
 models: model types: xnnpack
-models: model types:bfloat16
 models: model zoo
-models: onnx models
-models: ort model
 models: testing models
 models: training models
 models: training models: fairscale
 models: training models: gathergrad
-models: training models: grad
-models: training models: gradient
-models: training models: pytorch
-models: training models: tuning
-models: transformer-based
-nodes/operators/kernels/tensors
-nodes/operators/kernels/tensors :clip
-nodes/operators/kernels/tensors: aten
-nodes/operators/kernels/tensors: attention
-nodes/operators/kernels/tensors: bias
-nodes/operators/kernels/tensors: convgrad
-nodes/operators/kernels/tensors: convtranspose
-nodes/operators/kernels/tensors: dlpack
-nodes/operators/kernels/tensors: documentation
-nodes/operators/kernels/tensors: domain
-nodes/operators/kernels/tensors: dropout
-nodes/operators/kernels/tensors: einsum
-nodes/operators/kernels/tensors: gelu
-nodes/operators/kernels/tensors: gemm
-nodes/operators/kernels/tensors: layernorm
-nodes/operators/kernels/tensors: layernormalization
-nodes/operators/kernels/tensors: matmul
-nodes/operators/kernels/tensors: matrix
-nodes/operators/kernels/tensors: matrix: eigen
-nodes/operators/kernels/tensors: maxpool
-nodes/operators/kernels/tensors: memcpy
-nodes/operators/kernels/tensors: nchw
-nodes/operators/kernels/tensors: nchwc
-nodes/operators/kernels/tensors: nhwc
-nodes/operators/kernels/tensors: op
-nodes/operators/kernels/tensors: opset
-nodes/operators/kernels/tensors: pad
-nodes/operators/kernels/tensors: prelu
-nodes/operators/kernels/tensors: qlinear
-nodes/operators/kernels/tensors: reducesum
-nodes/operators/kernels/tensors: scatternd
-nodes/operators/kernels/tensors: sequencepooling
-nodes/operators/kernels/tensors: sigmoid
-nodes/operators/kernels/tensors: skiplayernormalization
-nodes/operators/kernels/tensors: softmax
-nodes/operators/kernels/tensors/opset
-optimisation: deepspeed
-optimisation: im2col
-optimisation: olive
-optimization
-optimization: transformers
+models: model types: transformer-based
+operators: abs
+operators: acos
+operators: acosh
+operators: add
+operators: affine
+operators: and
+operators: argmax
+operators: argmin
+operators: arrayfeatureextractor
+operators: asin
+operators: asinh
+operators: atan
+operators: atanh
+operators: attention
+operators: attnlstm
+operators: averagepool
+operators: batchnormalization
+operators: beamsearch
+operators: biasadd
+operators: biasdropout
+operators: biasgelu
+operators: biassoftmax
+operators: biassplitgelu
+operators: bifurcationdetector
+operators: binarizer
+operators: bitmaskbiasdropout
+operators: bitmaskdropout
+operators: bitshift
+operators: bitwiseand
+operators: bitwisenot
+operators: bitwiseor
+operators: bitwisexor
+operators: blackmanwindow
+operators: cast
+operators: castlike
+operators: castmap
+operators: categorymapper
+operators: cdist
+operators: ceil
+operators: celu
+operators: clip
+operators: col2im
+operators: complexmul
+operators: complexmulconj
+operators: compress
+operators: concat
+operators: concatfromsequence
+operators: constantofshape
+operators: conv
+operators: convinteger
+operators: convtranspose
+operators: convtransposewithdynamicpads
+operators: cos
+operators: cosh
+operators: crop
+operators: cropandresize
+operators: cumsum
+operators: decoderattention
+operators: decodermaskedmultiheadattention
+operators: decodermaskedselfattention
+operators: depthtospace
+operators: dequantizelinear
+operators: dequantizewithorder
+operators: det
+operators: dft
+operators: dictvectorizer
+operators: div
+operators: dmlfusedadd
+operators: dmlfusedbatchnormalization
+operators: dmlfusedconv
+operators: dmlfusedconvtranspose
+operators: dmlfusedgemm
+operators: dmlfusedinstancenormalization
+operators: dmlfusedmatmul
+operators: dmlfusedmeanvariancenormalization
+operators: dmlfusedsum
+operators: dropout
+operators: dynamicquantizelinear
+operators: dynamicquantizelstm
+operators: dynamicquantizematmul
+operators: dynamicslice
+operators: einsum
+operators: elu
+operators: embedlayernormalization
+operators: equal
+operators: erf
+operators: exp
+operators: expand
+operators: expanddims
+operators: eyelike
+operators: fastgelu
+operators: featurevectorizer
+operators: flatten
+operators: floor
+operators: fusedconv
+operators: fusedgemm
+operators: fusedmatmul
+operators: fusedmatmulactivation
+operators: gatedrelativepositionbias
+operators: gather
+operators: gatherelements
+operators: gathernd
+operators: gelu
+operators: gemm
+operators: globalaveragepool
+operators: globallppool
+operators: globalmaxpool
+operators: greater
+operators: greaterorequal
+operators: greedysearch
+operators: gridsample
+operators: groupnorm
+operators: gru
+operators: hammingwindow
+operators: hannwindow
+operators: hardmax
+operators: hardsigmoid
+operators: identity
+operators: if
+operators: imagescaler
+operators: imputer
+operators: instancenormalization
+operators: inverse
+operators: irfft
+operators: isinf
+operators: isnan
+operators: labelencoder
+operators: layernormalization
+operators: leakyrelu
+operators: less
+operators: lessorequal
+operators: linearclassifier
+operators: linearregressor
+operators: log
+operators: logsoftmax
+operators: longformerattention
+operators: loop
+operators: lpnormalization
+operators: lppool
+operators: lrn
+operators: lstm
+operators: matmul
+operators: matmulinteger
+operators: matmulinteger16
+operators: matmulintegertofloat
+operators: max
+operators: maxpool
+operators: maxpoolwithmask
+operators: maxroipool
+operators: maxunpool
+operators: mean
+operators: meanvariancenormalization
+operators: melweightmatrix
+operators: memcpyfromhost
+operators: memcpytohost
+operators: min
+operators: mod
+operators: mul
+operators: multiheadattention
+operators: multinomial
+operators: murmurhash3
+operators: neg
+operators: ngramrepeatblock
+operators: nchwc
+operators: nchwc: nhwcconv
+operators: nchw: nhwcmaxpool
+operators: nonzero
+operators: normalizer
+operators: not
+operators: onehot
+operators: onehotencoder
+operators: optional
+operators: optionalgetelement
+operators: optionalhaselement
+operators: or
+operators: packedattention
+operators: pad
+operators: parametricsoftplus
+operators: pow
+operators: prelu
+operators: qattention
+operators: qembedlayernormalization
+operators: qgemm
+operators: qlinearadd
+operators: qlinearconv
+operators: qlinearleakyrelu
+operators: qlinearmatmul
+operators: qlinearmul
+operators: qlinearsigmoid
+operators: qlinearsoftmax
+operators: qlinearwhere
+operators: qorderedattention
+operators: qorderedgelu
+operators: qorderedlayernormalization
+operators: qorderedlongformerattention
+operators: qorderedmatmul
+operators: quantizelinear
+operators: quantizewithorder
+operators: quickgelu
+operators: randomnormal
+operators: randomnormallike
+operators: randomuniform
+operators: randomuniformlike
+operators: range
+operators: reciprocal
+operators: reducel1
+operators: reducel2
+operators: reducelogsum
+operators: reducelogsumexp
+operators: reducemax
+operators: reducemean
+operators: reducemin
+operators: reduceprod
+operators: reducesum
+operators: reducesumsquare
+operators: relativepositionbias
+operators: relu
+operators: removepadding
+operators: reorderinput
+operators: reorderoutput
+operators: reshape
+operators: resize
+operators: restorepadding
+operators: reversesequence
+operators: rfft
+operators: rnn
+operators: roialign
+operators: round
+operators: sampleop
+operators: sampling
+operators: scale
+operators: scaledtanh
+operators: scaler
+operators: scan
+operators: scatter
+operators: scatterelements
+operators: scatternd
+operators: selu
+operators: sequenceat
+operators: sequenceconstruct
+operators: sequenceempty
+operators: sequenceerase
+operators: sequenceinsert
+operators: sequencelength
+operators: shape
+operators: shrink
+operators: sigmoid
+operators: sign
+operators: simplifiedlayernormalization
+operators: sin
+operators: sinh
+operators: size
+operators: skiplayernormalization
+operators: skipsimplifiedlayernormalization
+operators: slice
+operators: softmax
+operators: softplus
+operators: softsign
+operators: spacetodepth
+operators: sparsetodensematmul
+operators: split
+operators: splittosequence
+operators: sqrt
+operators: squeeze
+operators: stft
+operators: stringnormalizer
+operators: sub
+operators: sum
+operators: svmclassifier
+operators: svmregressor
+operators: tan
+operators: tanh
+operators: tfidfvectorizer
+operators: thresholdedrelu
+operators: tile
+operators: tokenizer
+operators: topk
+operators: transpose
+operators: transposematmul
+operators: treeensembleclassifier
+operators: treeensembleregressor
+operators: trilu
+operators: unique
+operators: unsqueeze
+operators: upsample
+operators: where
+operators: wordconvembedding
+operators: xor
+operators: zipmap
+operators: opset
+nodes/kernels/tensors
+nodes/kernels/tensors: documentation
+nodes/kernels/tensors: matrix
+nodes/kernels/tensors: op
+orttraining: deepsped
 parsing and serialisation
-partitions
-performance
-performance: quantize
 platforms
 platforms: android
-platforms: centos
 platforms: ios
 platforms: linux
-platforms: linux: ubuntu
 platforms: macos
-platforms: macos: os x
 platforms: mobile
 platforms: web
 platforms: web: emsdk
 platforms: web: webassembly
 platforms: web: webgl
 platforms: windows
-platforms: windows: wcos
-platforms: windows: win32
-platforms: windows: win33
-platforms: windows: win34
-platforms: windows: windowsai
 platforms: windows: winml
-platforms: windows: winrt
-platforms: winml
-quantization: qdq
-quantization: s8s8
-quantization: u8s8
+quantization
